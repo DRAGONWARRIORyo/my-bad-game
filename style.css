@@ -1,0 +1,23 @@
+ /* Created by chase warren */ 
+ 
+button {
+width: 8%;
+height: 4%;
+  text-align: center;
+  font-size: 18px;
+  }
+  div {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  #myCanvas {
+    width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  user-select:none;
+      -webkit-user-select: none;
+    -ms-user-select: none;
+  
