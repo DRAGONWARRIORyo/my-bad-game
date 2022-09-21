@@ -3,7 +3,7 @@
  </head> 
  <body> 
   <!-- Created by chase warren --> 
-  <canvas id="myCanvas" width="100%" height="100%" style="border:1px solid #000000;"> 
+  <canvas id="myCanvas" width="600" height="800" style="border:1px solid #000000;"> 
   </canvas> 
   <div align="center"> 
    <button id="up">↑</button> 
@@ -18,8 +18,8 @@ window.onload = function () {
   var ctx = canvas.getContext("2d");
   var x = 250;
   var y = 150;
-  var coinx = Math.random() * (600 - 50);
-  var coiny = Math.random() * (400 - 50);
+  var coinx = Math.random() * (800 - 50);
+  var coiny = Math.random() * (600 - 50);
 
   var t = Date.now();
   let speed = 300;
