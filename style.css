@@ -25,6 +25,7 @@ user-select: none;
 @media only screen and (max-width: 600px) {
   #myCanvas {
     width: 600px;
+    height: 400;
   }
 }
 
@@ -32,5 +33,6 @@ user-select: none;
   #myCanvas {
     max-width: 600px;
     width: 50%;
+    height: 400;
   }
 }
