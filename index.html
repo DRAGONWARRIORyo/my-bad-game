@@ -113,7 +113,7 @@ window.onload = function () {
     ctx.fillText("Score: " + score, 300, 30);
 
     if (dir == 1) {
-      if (x + 100 < 600) {
+      if (x + 100 < 800) {
         x += speed * timePassed;
       }
     } else if (dir == 2) {
@@ -121,7 +121,7 @@ window.onload = function () {
         x -= speed * timePassed;
       }
     } else if (dir == 3) {
-      if (y + 100 < 400) {
+      if (y + 100 < 600) {
         y += speed * timePassed;
       }
     } else if (dir == 4) {
@@ -137,8 +137,8 @@ window.onload = function () {
       y <= coiny + 50
     ) {
       score++;
-      coinx = Math.random() * (600 - 50);
-      coiny = Math.random() * (400 - 50);
+      coinx = Math.random() * (800 - 50);
+      coiny = Math.random() * (600 - 50);
     }
 
     // update the timestamp (requestAnimationFrame return an id)
@@ -161,7 +161,7 @@ window.onload = function () {
     t = Date.now();
     fps = Math.round(1 / timePassed);
 
-    ctx.clearRect(0, 0, 600, 400);
+    ctx.clearRect(0, 0, 800, 600);
 
     ctx.font = "25px Arial";
     ctx.fillStyle = "black";
@@ -181,7 +181,7 @@ window.onload = function () {
     ctx.fillText("Score: " + score, 300, 30);
 
     if (dir == 1) {
-      if (x + 100 < 600) {
+      if (x + 100 < 800) {
         x += speed * timePassed;
       }
     } else if (dir == 2) {
@@ -189,7 +189,7 @@ window.onload = function () {
         x -= speed * timePassed;
       }
     } else if (dir == 3) {
-      if (y + 100 < 400) {
+      if (y + 100 < 600) {
         y += speed * timePassed;
       }
     } else if (dir == 4) {
@@ -205,8 +205,8 @@ window.onload = function () {
       y <= coiny + 50
     ) {
       score++;
-      coinx = Math.random() * (600 - 50);
-      coiny = Math.random() * (400 - 50);
+      coinx = Math.random() * (800 - 50);
+      coiny = Math.random() * (600 - 50);
     }
 
     // update the timestamp (requestAnimationFrame return an id)
