@@ -1,18 +1,3 @@
-<html>
- <head>  
- </head> 
- <body> 
-  <!-- Created by chase warren --> 
-  <canvas id="myCanvas" width="800" height="800" style="border:1px solid #000000;"> 
-  </canvas> 
-  <div align="center"> 
-   <button id="up">↑</button> 
-   <br> 
-   <button id="left">←</button> 
-   <button id="down">↓</button> 
-   <button id="right">→</button> 
-  </div>   
-<script>
 window.onload = function () {
   var canvas = document.getElementById("myCanvas");
   var ctx = canvas.getContext("2d");
@@ -220,6 +205,3 @@ window.onload = function () {
     //... if not, just go on
   }
 };
-</script>
- </body>
-</html>
