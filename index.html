@@ -20,8 +20,8 @@ window.onload = function () {
   var ctx = canvas.getContext("2d");
   var x = 250;
   var y = 150;
-  var coinx = Math.random() * (600 - 50);
-  var coiny = Math.random() * (400 - 50);
+  var coinx = Math.random() * (800 - 50);
+  var coiny = Math.random() * (600 - 50);
 
   var t = Date.now();
   let speed = 300;
@@ -115,7 +115,7 @@ window.onload = function () {
     ctx.fillText("Score: " + score, 300, 30);
 
     if (dir == 1) {
-      if (x + 100 < 600) {
+      if (x + 100 < 800) {
         x += speed * timePassed;
       }
     } else if (dir == 2) {
@@ -139,8 +139,8 @@ window.onload = function () {
       y <= coiny + 50
     ) {
       score++;
-      coinx = Math.random() * (600 - 50);
-      coiny = Math.random() * (400 - 50);
+      coinx = Math.random() * (800 - 50);
+      coiny = Math.random() * (600 - 50);
     }
 
     // update the timestamp (requestAnimationFrame return an id)
@@ -183,7 +183,7 @@ window.onload = function () {
     ctx.fillText("Score: " + score, 300, 30);
 
     if (dir == 1) {
-      if (x + 100 < 600) {
+      if (x + 100 < 800) {
         x += speed * timePassed;
       }
     } else if (dir == 2) {
@@ -191,7 +191,7 @@ window.onload = function () {
         x -= speed * timePassed;
       }
     } else if (dir == 3) {
-      if (y + 100 < 800) {
+      if (y + 100 < 600) {
         y += speed * timePassed;
       }
     } else if (dir == 4) {
@@ -207,8 +207,8 @@ window.onload = function () {
       y <= coiny + 50
     ) {
       score++;
-      coinx = Math.random() * (600 - 50);
-      coiny = Math.random() * (400 - 50);
+      coinx = Math.random() * (800 - 50);
+      coiny = Math.random() * (600 - 50);
     }
 
     // update the timestamp (requestAnimationFrame return an id)

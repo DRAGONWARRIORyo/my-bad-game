@@ -13,7 +13,7 @@ height: 4%;
   }
   #myCanvas {
     width: 800;
-    height: auto;
+    height: 600;
     user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -24,15 +24,7 @@ user-select: none;
 
 @media only screen and (max-width: 600px) {
   #myCanvas {
-    width: 600px;
+    width: 600x;
     height: 400px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #myCanvas {
-    max-width: 600px;
-    width: 50%;
-    height: 400;
   }
 }
