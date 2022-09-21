@@ -22,9 +22,16 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   #myCanvas {
-    width: 600x;
+    width: 800x;
     height: 400px;
+  }
+} 
+
+@media only screen and (max-width: 800) {
+  #myCanvas {
+    width: 600;
+    height: 400;
   }
 }
